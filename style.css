@@ -1,0 +1,70 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+.container{
+    display: grid;
+    width: 350px;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: hsl(216, 50%, 16%);
+    padding: 20px;
+    border-radius: 10px;
+}
+.container h1{
+    padding-top:10px;
+    color: white;
+    font-size: 25px;
+}
+.container p{
+    font-size: 18px;
+    color: hsl(215, 51%, 70%);
+}
+
+.cubo{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.precio{
+    display: flex;
+    gap: 100px;
+}
+.precio svg{
+ margin-right: 5px;  
+}
+.precio .eth{
+    color: hsl(178, 100%, 50%);
+}
+.precio .reloj{
+    color: hsl(215, 51%, 70%);
+}
+.perfil{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.divisor{
+    background-color: hsl(215, 32%, 27%);
+    height: 2px;
+}
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    border: solid 2px white;
+}
+span{
+    color: white;
+}
+.attribution{
+    padding-top: 500px;
+}
